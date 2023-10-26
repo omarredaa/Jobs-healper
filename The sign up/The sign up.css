@@ -3,14 +3,18 @@
   margin: 0;
   padding: 0;
 }
-a{
+
+a {
   text-decoration: none;
 }
+
 body {
-  background-image: url('photo_2023-04-23_17-03-53.jpg');
+  background-image: url('abstract-colorful-geometric-shape-background-modern-color-background-for-your-website-vector.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   font-family: Arial, sans-serif;
+  /* background-repeat: no-repeat; */
   color: #333;
   backdrop-filter: blur(4px);
 }
@@ -92,7 +96,8 @@ input[type="password"] {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
-.already{
+
+.already {
   position: absolute;
   bottom: 50px;
 }
