@@ -4,15 +4,18 @@
 // };
 // -----------------------------------------------------------
 var ele = document.getElementsByClassName("nav-links");
+
+console.log(ele);
 function my_func() {
-    if (ele.style.display === "block") {
-        ele.style.display = "none";
+    if (ele[0].style.display === "block") {
+        ele[0].style.display = "none";
     }
     else {
-        ele.style.display = "block";
+        ele[0].style.display = "block";
     }
 
 }
-my_func(ele);
-// -------------------------------------------------------------------
+document.getElementsByClassName('links')[0].addEventListener('click', function () {
+    my_func(ele);
+})
 
